@@ -1,0 +1,144 @@
+{
+    "$schema": "https://raw.githubusercontent.com/TheGiddyLimit/5etools-utils/master/schema/brew-fast/homebrew.json",
+    "_meta": {
+        "sources": [
+            {
+                "json": "WotHF",
+                "abbreviation": "WotHF",
+                "full": "Way of the Hin Fist",
+                "authors": [
+                    "Dakota Raine"
+                ],
+                "version": "2024.07.02",
+                "color": "2ec27e"
+            }
+        ]
+    },
+    "subclass": [
+        {
+            "name": "Way of the Hin Fist",
+            "source": "WotHF",
+            "className": "Monk",
+            "classSource": "PHB",
+            "shortName": "Hin Fist",
+            "page": 1,
+            "subclassFeatures": [
+                "Nimble Comatant|Monk|PHB|Way of the Hin Fist|WotHF",
+                "Hin Resilience|Monk|PHB|Way of the Hin Fist|WotHF",
+                "Giant Slayer|Monk|PHB|Way of the Hin Fist|WotHF",
+                "Evasion and Escape|Monk|PHB|Way of the Hin Fist|WotHF",
+                "Inner Giant|Monk|PHB|Way of the Hin Fist|WotHF"
+            ]
+        }
+    ],
+    "subclassFeature": [
+        {
+            "name": "Way of the Hin Fist",
+            "source": "WotHF",
+            "className": "Monk",
+            "classSource": "PHB",
+            "subclassSource": "WotHF",
+            "subclassShortName": "Hin Fist",
+            "page": 1,
+            "level": 1,
+            "entries": [
+                "Monks who follow the Way of the Hin Fist have honed their bodies and minds to be as formidable as the most towering of giants, despite their small stature. They harness their inner strength to compensate for their lack of physical size, mastering techniques that leverage their agility, cunning, and resilience.",
+                {
+                    "type": "refSubclassFeature",
+                    "subclassFeature": "Nimble Combatant|Monk|PHB|Way of the Hin Fist|WotHF|1|WotHF"
+                },
+                {
+                    "type": "refSubclassFeature",
+                    "subclassFeature": "Hin Resilience|Monk|PHB|Way of the Hin Fist|WotHF|1|WotHF"
+                },
+                {
+                    "type": "refSubclassFeature",
+                    "subclassFeature": "Giant Slayer|Monk|PHB|Way of the Hin Fist|WotHF|1|WotHF"
+                },
+                {
+                    "type": "refSubclassFeature",
+                    "subclassFeature": "Evasion and Escape|Monk|PHB|Way of the Hin Fist|WotHF|1|WotHF"
+                },
+                {
+                    "type": "refSubclassFeature",
+                    "subclassFeature": "Inner Giant|Monk|PHB|Way of the Hin Fist|WotHF|1|WotHF"
+                }
+            ]
+        },
+        {
+            "name": "Nimble Combatant",
+            "source": "WotHF",
+            "className": "Monk",
+            "classSource": "PHB",
+            "subclassShortname": "Hin Fist",
+            "page": 1,
+            "level": 3,
+            "header": 1,
+            "entries": [
+                "When you choose this tradition at 3rd level, your training allows you to move with extraordinary agility. You can move through the space of any creature that is of a size larger than yours. Additionally, you can use your Dexterity modifier instead of your Strength modifier for Athletics checks."
+            ]
+        },
+        {
+            "name": "Hin Resilience",
+            "source": "WotHF",
+            "className": "Monk",
+            "classSource": "PHB",
+            "subclassShortname": "Hin Fist",
+            "page": 1,
+            "level": 3,
+            "header": 1,
+            "entries": [
+                "Your inner fortitude allows you to withstand the most brutal of assaults. When you use your Patient Defense feature, you gain temporary hit points equal to your Wisdom modifier + your monk level."
+            ]
+        },
+        {
+            "name": "Giant Slayer",
+            "source": "WotHF",
+            "className": "Monk",
+            "classSource": "PHB",
+            "subclassShortname": "Hin Fist",
+            "page": 1,
+            "level": 6,
+            "header": 1,
+            "entries": [
+                "Starting at 6th level, you have learned to strike with precision against larger foes. When you hit a creature larger than you with an unarmed strike or monk weapon, you can roll one of the weapon’s damage dice an additional time and add it as extra damage of the weapon’s type."
+            ]
+        },
+        {
+            "name": "Evasion and Escape",
+            "source": "WotHF",
+            "className": "Monk",
+            "classSource": "PHB",
+            "subclassShortname": "Hin Fist",
+            "page": 1,
+            "level": 1,
+            "header": 1,
+            "entries": [
+                "Your training has made you exceptionally good at avoiding harm and escaping from dangerous situations. You can add your Wisdom modifier to your Dexterity saving throws. Additionally, you can use your reaction to reroll a failed Dexterity saving throw. You must use the new roll, and you can use this feature a number of times equal to your Wisdom modifier (minimum of once). You regain all expended uses when you finish a long rest."
+            ]
+        },
+        {
+            "name": "Inner Giant",
+            "source": "WotHF",
+            "className": "Monk",
+            "classSource": "PHB",
+            "subclassShortname": "Hin Fist",
+            "page": 1,
+            "level": 17,
+            "header": 1,
+            "entries": [
+                "At 17th level, you can draw upon your inner strength to grow in power and presence. As an action, you can magically increase your size, becoming Large for 1 minute. While enlarged in this way, you gain the following benefits:",
+                {
+                    "type": "list",
+                    "items": [
+                        "Your reach increases by 5 feet.",
+                        "Your unarmed strikes deal an additional 1d8 damage.",
+                        "You have advantage on Strength checks and Strength saving throws."
+                    ]
+                },
+                "Once you use this feature, you can't use it again until you finish a long rest."
+            ]
+        }
+    ],
+    "__prop": "data"
+}
